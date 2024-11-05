@@ -38,7 +38,7 @@ for ligne in f:
         C = int(tokens[0])
         major = int(tokens[1])
     else:
-        if not tokens[0].isnumeric():
+        if not tokens[0].isnumeric():z
             name_istance = tokens[0]
         else:
             t.append(int(tokens[0]))
@@ -49,10 +49,6 @@ minor = math.ceil(sum(t) / C)
 
 print(t)
 print(C)
-
-
-
-
 
 # make a dictionary xij where i is the object number and j is the bin number 
 x = {}

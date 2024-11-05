@@ -1,0 +1,19 @@
+2 dimensions of 0..1 end
+
+x :=
+	1 when [1,0] = 1,
+	0 otherwise
+
+y :=
+	1 when [1,-1] = 1,
+	0 otherwise
+
+z :=
+	1 when [0, -1] = 1,
+	0 otherwise
+
+if x + y + z != 0 then
+	[0, 0] := 1
+else
+	[0, 0] := 0
+end

@@ -1,0 +1,13 @@
+coq/listSet.v
+coq/useless.v
+coq/wrtonce.v
+coq/transfo.v
+common.ml
+ast.ml
+symbols.ml
+lexer.ml
+parser.ml
+astpp.ml
+astclean.ml
+code/*.s
+

@@ -1,0 +1,7 @@
+2 dimensions of 0..1 end
+
+[0, 0] :=
+	1 when [1,0] = 1,
+	1 when [1,-1] = 1,
+	1 when [0, -1] = 1,
+	0 otherwise
