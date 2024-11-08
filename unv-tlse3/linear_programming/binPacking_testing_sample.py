@@ -60,16 +60,15 @@ for i, j in itertools.product(range(n), range(predicted_bins)):
     M.addCons(x[i, j] <= y[j], name=f"bin_usage_{i}_{j}")
 
 
-# for j in range(predicted_bins - 1):
-#     M.addCons(sum(t[i] * x[i, j] for i in range(n)) >= sum(t[i] * x[i, j + 1] for i in range(n)), name=f"monotonicity_{j}")
+for j in range(predicted_bins - 1):
+    M.addCons(sum(t[i] * x[i, j] for i in range(n)) >= sum(t[i] * x[i, j + 1] for i in range(n)), name=f"monotonicity_{j}")
 
-# for j in range(predicted_bins - 1):
-#     M.addCons(y[j] >= y[j + 1], name=f"order_usage_{j}")
-
-
+for j in range(predicted_bins - 1):
+    M.addCons(y[j] >= y[j + 1], name=f"order_usage_{j}")
 
 
-# Add constraint based on the formula in the image
+
+
 # for i in range(1, n):
 #     for j in range(i, n): 
 #         if (i, j) in x:
