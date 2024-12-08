@@ -1,0 +1,31 @@
+##[pylyzer] failed /home/montu/playground/unv-tlse3/MPI/Labs/n-bodies-opt.py 1732472017 1720
+.sys = pyimport "<failure>"
+.<failure> = pyimport "<failure>"
+
+.time = pyimport "<failure>"
+
+
+.np = pyimport "numpy"
+.numpy = pyimport "numpy"
+
+.___v_desugar_1 = pyimport "__init__"
+.__init__ = pyimport "__init__"
+.MPI: Never
+.DUMMY = pyimport "n_bodies"
+.n_bodies = pyimport "n_bodies"
+.comm: Never
+.rank: Never
+.size: Never
+.nbbodies: Never
+.NBSTEPS: Never
+.DISPLAY: Never
+
+.force: Never
+.total_force: Never
+
+.local_count: Never
+.start_idx: Never
+.local_data: Never
+
+
+

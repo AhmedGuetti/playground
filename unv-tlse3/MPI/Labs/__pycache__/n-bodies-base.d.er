@@ -1,0 +1,25 @@
+##[pylyzer] failed /home/montu/playground/unv-tlse3/MPI/Labs/n-bodies-base.py 1732452677 588
+.sys = pyimport "<failure>"
+.<failure> = pyimport "<failure>"
+
+.time = pyimport "<failure>"
+
+
+.random = pyimport "<failure>"
+
+
+.np = pyimport "numpy"
+.numpy = pyimport "numpy"
+
+.DUMMY = pyimport "n_bodies"
+.n_bodies = pyimport "n_bodies"
+.nbbodies: Never
+.NBSTEPS: Never
+.DISPLAY: Never
+.start_time: Never
+.data: Never
+
+.end_time: Never
+
+
+

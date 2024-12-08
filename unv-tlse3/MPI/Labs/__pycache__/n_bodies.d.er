@@ -1,0 +1,31 @@
+##[pylyzer] failed /home/montu/playground/unv-tlse3/MPI/Labs/n_bodies.py 1732452676 2934
+.math = pyimport "<failure>"
+.<failure> = pyimport "<failure>"
+
+.random = pyimport "<failure>"
+
+
+.np = pyimport "__init__"
+.__init__ = pyimport "__init__"
+
+.plt = pyimport "<failure>"
+
+
+.___v_global_1302: Range({Type_v_global_4: Int | (Type_v_global_4 >= 0) and (Type_v_global_4 <= pred(6))})
+.ID: Never
+.POSX: Never
+.POSY: Never
+.SPEEDX: Never
+.SPEEDY: Never
+.WEIGHT: Never
+
+.solarmass: {1988919999999999913189181489152.0}
+.circlev: |R <: Structural({.__mul__ = (self: Never, Obj) -> O}), R <: Structural({.__mul__ = (self: Never, Obj) -> R}), R <: Structural({.__mul__ = (self: Never, R) -> O}), O <: Structural({.__add__ = (self: Never, R) -> O}), R: Type, O: Type, R <: Structural({.__mul__ = (self: Never, R) -> R})|(rx: R, ry: R) -> Never
+.create_item: (id: Obj, positionx: {0}, positiony: {0}, speedx: {0}, speedy: {0}, weight: Obj) -> Never
+.str_item: (item: Indexable(Obj, Never)) -> Str
+.display: |Type_72100 <: Structural({.__len__ = (self: Never) -> Nat; .__getitem__ = (self: Obj, T) -> Type_72333}), Type_72333 <: Indexable(K, V), K :> {<failure>}, V: Type, T :> Int|(m: Str, l: Type_72100, rank: Obj := {0}) -> NoneType
+.displayPlot: |Self <: Indexable(K, T), Type_72104 <: Structural({.__len__ = (self: Never) -> Nat; .__getitem__ = (self: Obj, T) -> Self and (self: Obj, T) -> Self}), T: Type, Self <: Indexable(K, T), K :> {<failure>}, T :> Int|(d: Type_72104) -> Never
+.interaction: |R <: Float, Self <: Indexable(K, R), O <: Structural({.__add__ = (self: Never, R) -> O}), O <: Structural({.__mul__ = (self: Never, R) -> O}), V <: Structural({.__sub__ = (self: Never, R) -> O and (self: Never, R) -> R}), Self <: Indexable(K, V), O: Type, K :> {<failure>}, R: Type|(i: Self, j: Self) -> Never
+.update: |Self <: Indexable(K, Obj), R <: Float, Self <: Indexable(K, R), K :> {<failure>}, K :> {1, 0}|(d: Self, f: Self) -> Never
+.signature: (world: Iterable(Indexable(Obj, Structural({.__add__ = (self: Never, Never) -> Nat})))) -> Nat
+.init_world: |O <: {MAX}, R :> {1}, MAX: Int, Type_72114 <: Structural({.__sub__ = (self: Never, R) -> O and (self: Never, R) -> Type_72090}), Type_72090: Type|(n: Type_72114) -> Never
